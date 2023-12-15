@@ -1,0 +1,19 @@
+.button-new-note{
+    
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    width: 188px;
+    height:56px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    display: flex;
+    padding: 14px var(--Spacing-Spacing-scale-05, 16px);
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border-colors-foundations-border-inset, #D8DEE4);
+    box-shadow: 3px 3px 10px 0px rgba(120, 132, 149, 0.08);
+    border-color: #9595948f;
+    border-width: 1.5px;
+}
