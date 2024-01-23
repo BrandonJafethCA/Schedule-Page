@@ -1,5 +1,6 @@
+ @import url('https://fonts.googleapis.com/css2?family=Chicle&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
 .button-new-note{
-    
     font-family: 'Poppins', sans-serif;
     display: flex;
     width: 188px;
@@ -33,19 +34,19 @@ nav{
     align-items: center;
     list-style: none;
 }
+
 .section-hero {
     margin: 0;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
+    z-index: 2;
+    
 }
 
 .hero-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: inline-block;
+    text-align: center;
 }
 
 .hero-welcome {
@@ -55,11 +56,49 @@ nav{
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 2; 
+    
 }
 
-.hero-greeting {
-    font-size: 2.5em;
+.container-blur {
+    width: 1063.395px;
+    height: 210px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: rgb(207, 202, 202);
+    background: #04040416;
+    backdrop-filter: blur(40px);
+    border-radius: 60px;
+    border: 0px solid #98F9FF;
+    background-blend-mode: overlay, normal;
+}
+
+  .hero-greeting {
+    font-size: 180px;
     margin-bottom: 10px;
+    color: #E2C0AD;
+    font-family: 'Chicle', serif;
+    text-shadow: 2px 7px 2px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #680505;
+    line-height: 127.8%;
+    font-weight: 400;
 }
 
+
+
+.container-inf{
+    background: rgba(25, 24, 24, 0.342);
+    backdrop-filter: blur(1px);
+    width: 100%;
+    height: 100%;
+}
+
+.hero-about-us {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.46);
+    color: #F2AC9D;
+    font-size: 25px;
+    font-weight: 650;
+    line-height: 165.3%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #680505;
+}
 
