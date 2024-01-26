@@ -17,6 +17,7 @@
     box-shadow: 3px 3px 10px 0px rgba(120, 132, 149, 0.08);
     border-color: #9595948f;
     border-width: 1.5px;
+    
 }
 
 nav{
@@ -83,8 +84,6 @@ nav{
     font-weight: 400;
 }
 
-
-
 .container-inf{
     background: rgba(25, 24, 24, 0.342);
     backdrop-filter: blur(1px);
@@ -102,3 +101,115 @@ nav{
     -webkit-text-stroke-color: #680505;
 }
 
+.container-music {
+    border: solid #5f4f4f;
+    border-radius: 100px;
+    display: flex;
+    left: 50%;
+    right: 50%;
+}
+
+.album-cover {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.now-playing {
+    color: #D08F7A;
+    margin-top: 3%;
+    
+    font-size: 24.805px;
+    left: 35%;
+}
+
+.song-info{
+    
+    margin-top: 10%;
+    right: 50%;
+    left: 35%;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    text-shadow:2px 3.5px 2px rgba(0, 0, 0, 0.25);
+}
+
+h2.song-title {
+    color: #B1807A;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #7D4734;
+    font-size: 51px;
+    margin: 0;
+}
+
+h3.song-artist {
+    color: #E2C0AD;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #7D4734;
+    font-size: 35.2px;
+    margin: 5px;
+}
+
+
+
+.song-album {
+    color: #ddbca9;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #7D4734;
+    font-size: 35.2px;
+    margin-top: 0px;
+}
+
+.music-icons {
+
+}
+.back {
+
+}
+.pause {
+
+}
+.skip {
+
+}
+
+
+.footer-logo {
+    margin-top: 3%;
+}
+
+.footer-img{
+    
+}
+
+.footer-name h1{
+    margin: 0;
+}
+
+.footer-text {
+    
+}
+
+.social-media {
+}
+
+.social-media-icon {
+    
+}
+
+.bi {
+}
+
+.bi-facebook {
+    color: #A24C39;
+}
+
+.bi-instagram {
+    color: #A24C39;
+}
+
+.bi-twitter {
+    color: #A24C39;
+}
+
+.copyright {
+}
