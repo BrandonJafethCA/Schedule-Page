@@ -131,8 +131,8 @@ nav{
 }
 
 .imagen-album {
-    max-width: 100%; /* Hace que la imagen tenga un ancho máximo del 100% del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .now-playing {
