@@ -39,15 +39,21 @@ nav{
 .section-hero {
     margin: 0;
     z-index: 2;
+    overflow: hidden;
     
 }
 
+.hero-conejitos-bonitos {
+    height: 100%;
+    overflow: hidden; 
+}
 .hero-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: inline-block;
+    display: block;
     text-align: center;
+    max-width: 100%;
 }
 
 .hero-welcome {
@@ -102,35 +108,49 @@ nav{
 }
 
 .container-music {
-    border: solid #5f4f4f;
-    border-radius: 100px;
+    width: 90%;
+    height: 80%;
+    max-width: 1299px;
+    max-height: 515px;
+    background-color: #fffbf5;
+    border: solid 0.5px #f4f4f4;
+    border-radius: 90px;
     display: flex;
-    left: 50%;
-    right: 50%;
+   flex-direction: row;
+   align-items: center;
+   justify-content:space-between ;
+   margin: 0;
+   
 }
 
 .album-cover {
-    margin-left: 5%;
-    margin-top: 2%;
+    margin: 0;
+   margin-left: 3%;
+   
+    
+}
+
+.imagen-album {
+    max-width: 100%; /* Hace que la imagen tenga un ancho máximo del 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .now-playing {
     color: #D08F7A;
-    margin-top: 3%;
-    
+    padding-bottom: 20%;
+    text-shadow: none;
     font-size: 24.805px;
     left: 35%;
 }
 
 .song-info{
-    
-    margin-top: 10%;
+    margin-right: 28rem;
+    margin-top: 3%;
     right: 50%;
     left: 35%;
-    line-height: normal;
-    display: flex;
-    flex-direction: column;
     text-shadow:2px 3.5px 2px rgba(0, 0, 0, 0.25);
+    padding-bottom: 5%;
+    
 }
 
 h2.song-title {
@@ -160,56 +180,25 @@ h3.song-artist {
 }
 
 .music-icons {
+margin: 0;
 
 }
-.back {
 
-}
-.pause {
-
-}
-.skip {
-
-}
 
 
 .footer-logo {
     margin-top: 3%;
 }
 
-.footer-img{
-    
-}
 
 .footer-name h1{
     margin: 0;
 }
 
-.footer-text {
-    
-}
 
-.social-media {
-}
 
 .social-media-icon {
+    color: #A24C39;
     
 }
 
-.bi {
-}
-
-.bi-facebook {
-    color: #A24C39;
-}
-
-.bi-instagram {
-    color: #A24C39;
-}
-
-.bi-twitter {
-    color: #A24C39;
-}
-
-.copyright {
-}
