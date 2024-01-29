@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/styles/styles.css">
     <link rel="stylesheet" href="/public/layout/layout.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -10,17 +11,18 @@
 </head>
 
 <body> <!--  algo-productivo  ( estilo )  -->
-    <header> 
+    <header>
         <div class="header-logo">
-                <img src="/public/assets/logo gato.png" alt="logo">
-            </div>
-            <div class="logo-name"><h1>Cat Notes</h1>
-            </div>
+            <img src="/public/assets/logo gato.png" alt="logo">
+        </div>
+        <div class="logo-name">
+            <h1>Cat Notes</h1>
+        </div>
         <nav>
             <ul class="links-nav">
-                <li class="link-home">Inicio</li>
-                <li class="link-notes">Notas</li>
-                <li class="link-calendar">Calendario</li>
+                <li class="link-home"><a href="#">Inicio</a></li>
+                <li class="link-notes"><a href="#">Notas</a></li>
+                <li class="link-calendar"><a href="#">Calendario</a></li>
                 <div class="profile-image"> <img src="/public/assets/viejo del perfil.png" alt=""></div>
             </ul>
         </nav>
@@ -42,7 +44,7 @@
                 </div>
             </div>
         </section>
-        
+
 
         <section class="section-music">
             <div class="container-music">
@@ -51,28 +53,23 @@
                 </div>
                 <div class="song-info">
                     <p class="now-playing">Reproduciendo</p>
-                  <h2 class="song-title">Pandora</h2>
-                <h3 class="song-artist">woo!ah!</h3>
-                <h3 class="song-album">exclamation!</h3>  
+                    <h2 class="song-title">Pandora</h2>
+                    <h3 class="song-artist">woo!ah!</h3>
+                    <h3 class="song-album">exclamation!</h3>
                 </div>
+
                 <div class="music-icons">
-                    <div class="back">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="10" viewBox="0 0 9 10" fill="none">
-                            <path d="M0 1C0 0.723858 0.223858 0.5 0.5 0.5C0.776142 0.5 1 0.723858 1 1V4.24769L7.26654 0.612158C7.80683 0.298708 8.49933 0.677825 8.49933 1.30846V8.6922C8.49933 9.32283 7.80683 9.70195 7.26654 9.3885L1 5.75296V9C1 9.27614 0.776142 9.5 0.5 9.5C0.223858 9.5 0 9.27614 0 9V1Z" fill="black"/>
-                        </svg>
+                    <div class="icon-container back">
+                        <i class="bi bi-skip-start-fill"></i>
                     </div>
-                    <div class="pause">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10" viewBox="0 0 8 10" fill="none">
-                            <path d="M1.5 0.5C2.32843 0.5 3 1.17157 3 2V8C3 8.82843 2.32843 9.5 1.5 9.5C0.671573 9.5 0 8.82843 0 8V2C0 1.17157 0.671573 0.5 1.5 0.5Z" fill="black"/>
-                            <path d="M6.5 0.5C7.32843 0.5 8 1.17157 8 2V8C8 8.82843 7.32843 9.5 6.5 9.5C5.67157 9.5 5 8.82843 5 8V2C5 1.17157 5.67157 0.5 6.5 0.5Z" fill="black"/>
-                        </svg>
+                    <div class="icon-container pause">
+                        <i class="bi bi-pause-fill"></i>
                     </div>
-                    <div class="skip">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="10" viewBox="0 0 9 10" fill="none">
-                           <path d="M8.5 1C8.5 0.723858 8.27614 0.5 8 0.5C7.72386 0.5 7.5 0.723858 7.5 1V4.24808L1.23279 0.612158C0.692502 0.298708 0 0.677825 0 1.30846V8.6922C0 9.32283 0.692502 9.70195 1.23279 9.3885L7.5 5.75257V9C7.5 9.27614 7.72386 9.5 8 9.5C8.27614 9.5 8.5 9.27614 8.5 9V1Z" fill="black"/>
-                        </svg>
+                    <div class="icon-container skip">
+                        <i class="bi bi-skip-end-fill"></i>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -110,4 +107,5 @@
         <p class="copyright">Copyright © | 2024, Cat Notes Corp.</p>
     </footer>
 </body>
+
 </html>
