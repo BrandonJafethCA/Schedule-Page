@@ -230,6 +230,28 @@ color: #A24C39;
 }
 
 
+.notes-gallery {
+    display: flex;
+}
+
+.notes-images {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    margin-left: 20px;
+}
+
+.button h2 {
+    margin-bottom: 10px;
+}
+
 .footer-logo {
     margin-top: 3%;
 }
@@ -239,10 +261,25 @@ color: #A24C39;
     margin: 0;
 }
 
-
+.social-media{
+    display: flex;
+}
 
 .social-media-icon {
-    color: #A24C39;
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--vector, #A24C39);
+    border-radius: 50%;
+    margin-right: 10px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2)); 
+}
+
+.social-media-icon {
+    color: #ffffff;
     
 }
 

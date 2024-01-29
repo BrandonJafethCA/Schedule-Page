@@ -45,9 +45,16 @@ height: 100vh;
 }
 
 .section-notes {
-    background-color: #FFFBF5;
+  
+    background-color: #F0F0F0;
     width: 100%;
     height: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   margin-top: 1%;
 
 }
 
