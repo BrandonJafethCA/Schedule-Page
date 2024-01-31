@@ -17,7 +17,8 @@
     box-shadow: 3px 3px 10px 0px rgba(120, 132, 149, 0.08);
     border-color: #9595948f;
     border-width: 1.5px;
-    
+    margin-top: 35%;
+    margin-left: 25%;
 }
 
 nav{
@@ -242,16 +243,42 @@ color: #A24C39;
 img {
     max-width: 100%;
     height: auto;
+  margin: 0;
+  padding: 0;
+  margin-right: -19px; 
+  margin-bottom: 10px; 
+  position: relative; 
 }
 
 .button {
     margin-left: 20px;
+    
 }
 
 .button h2 {
-    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #406851;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165.3%;
+    margin-left: 13%;
+ 
 }
 
+.container-notes {
+    width: 100%; 
+    width: 530px;
+    height: 515px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #FFF;
+    box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
 .footer-logo {
     margin-top: 3%;
 }
